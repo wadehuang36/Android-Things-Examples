@@ -1,0 +1,28 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "io.github.wadehuang36.androidthings.example1"
+        minSdkVersion 27
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compileOnly 'com.google.android.things:androidthings:+'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version"
+}
