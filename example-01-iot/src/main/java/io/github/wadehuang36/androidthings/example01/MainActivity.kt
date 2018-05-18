@@ -1,4 +1,4 @@
-package io.github.wadehuang36.androidthings.example1
+package io.github.wadehuang36.androidthings.example01
 
 import android.app.Activity
 import android.os.Bundle

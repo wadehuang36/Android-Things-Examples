@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="io.github.wadehuang36.androidthings.example1">
+    package="io.github.wadehuang36.androidthings.example01">
 
     <uses-permission android:name="com.google.android.things.permission.USE_PERIPHERAL_IO" />
 
@@ -8,7 +8,7 @@
     <application>
         <uses-library android:name="com.google.android.things" />
 
-        <activity android:name=".MainActivity">
+        <activity android:name="io.github.wadehuang36.androidthings.example01.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

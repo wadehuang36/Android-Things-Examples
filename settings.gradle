@@ -1,1 +1,1 @@
-include ':app1', ':app2'
+include ':example-01-iot', ':example-02-iot'
