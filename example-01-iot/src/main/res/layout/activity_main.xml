@@ -9,7 +9,7 @@
         android:id="@+id/ledSwitch"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="LED Light"
+        android:text="LED Switch"
         android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

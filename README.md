@@ -6,4 +6,4 @@ This repo contains some examples of [Android Things](https://developer.android.c
 ### Example 1:
 The first Android Things app that just use PeripheralManager to control GPIO and switch a LED light.
 
-[Video](), [Blog]()
+[Video](https://youtu.be/Z0ZGOq60Mys), [Blog](https://wadehuang36.github.io/2018/05/19/2018-05-19-get-started-with-android-things.html)
